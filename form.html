@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+    
+</head>
+<body>
+    <header >
+        <nav >
+            <ul style="list-style-type: none; display: flex; gap: 10px;">
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <article>
+
+        </article>
+        <section>
+
+        </section>
+    </main>
+    <aside>
+
+
+    </aside>
+
+    <footer>
+
+        
+    </footer>
+    <h1>Html form</h1>
+    <form action="">
+        <div>
+            <label for="username"> Username</label>
+            <input type="text" id="username" >
+        </div>
+        <div>
+            <label for="email" > Enter you email</label>
+            <input type="email" id="email" placeholder="Enter email id"  required   autocomplete="off" size="20" value="Suvendu"   pattern="6862ynygyud#$%^&*">
+        </div>
+        <div>
+            <label for="textarea" >Message</label>
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="Enter message"></textarea>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="" id="password">
+        </div>
+        <div>
+            <label for="number">number</label>
+            <input type="number" name="" id="number" max="5" min="0" >
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" id="gender" > male
+            <input type="radio" name="gender" id="gender"  > female
+            
+        </div>
+        <div>
+            <label for="checkbox">Opininon</label>
+            <input type="checkbox" name="checkbox" id="checkbox" > yes
+            <input type="checkbox" name="checkbox" id="checkbox"  > no
+        </div>
+        <div>
+            <label for="select country"> Country</label>
+            <select id="country" name="country">
+                
+                <option value="UAE">UAE</option>
+                <option value="IND">IND</option>
+                <option value="AU">AU</option>
+                <option value="USA">USA</option>
+            </select>
+            </div>
+        <div>
+            <label for="select country"> Select a Country</label>
+            <input type="text" list="countries" id="country" name="country">
+            <datalist id="countries" name="">
+                
+                <option value="UAE">UAE</option>
+                <option value="IND">IND</option>
+                <option value="AU">AU</option>
+                <option value="USA">USA</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="file">Upload file</label>
+            <input type="file" name="" id="">
+        </div>
+
+        <input type="submit" value="submit">
+        <!-- or -->
+         <button type="submit">submit </button>
+       
+    </form>
+
+    <h1 style=" color: rgb(242, 18, 18);">Voiya ji aap  
+        <samp style="color: rgb(93, 16, 226);">Rudra
+            
+        </samp> ke ghar  nehi jaoge ka ?
+    </h1> 
+<div>
+    <label for="range">Range</label>
+    <input type="range" name="" id="" max="100" min="0" value="50">
+
+</div>
+<div>
+    <label for="dob"> Birthday</label>
+    <input type="date">
+</div>
+<div>
+    <label for="time"> appoinmentTime</label>
+    <input type="time">
+</div>
+<div>
+    <label for="color"> Favorite color</label>
+    <input type="color" >
+</div>
+<div>
+    <label for="url"> url </label>
+    <input type="url"  placeholder="Enter url..">
+</div>
+<div>
+    <label for="search"> search </label>
+    <input type="search"  placeholder="Serach...">
+</div>
+<div>
+    <label for="month"> month  & year</label>
+    <input type="month"  placeholder="Expire date...">
+</div>
+<div>
+    <label for="week"> week </label>
+    <input type="week"  placeholder="week...">
+</div>
+
+<div>
+    <fieldset>
+        <legend> personal info</legend>
+        <div>
+            <label for="dob"> Birthday</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="time"> appoinmentTime</label>
+            <input type="time">
+        </div>
+        <div>
+            <label for="color"> Favorite color</label>
+            <input type="color" >
+        </div>
+        <div>
+            <label for="url"> url </label>
+            <input type="url"  placeholder="Enter url..">
+        </div>
+        <div>
+            <label for="search"> search </label>
+            <input type="search"  placeholder="Serach...">
+        </div>
+        <div>
+            <label for="month"> month  & year</label>
+            <input type="month"  placeholder="Expire date...">
+        </div>
+    </fieldset>
+</div>
+   
+</body>
+</html>
